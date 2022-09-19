@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Estudo HTML</h1>
+        <p>Conceitos introdutórios da Linguagem</p>
+        <nav> <!-- Agrupa links de navegação -->
+        <ol>
+            <li><a href="#intro">Introdução</a></li>
+        </ol>
+        </nav>
+    </header>
+    <main>
+        <section>  <!-- Separa tópicos/conteúdos -->
+            <h3>Uso de tags</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolor unde deserunt nisi debitis at obcaecati, ad cumque eveniet dolorem possimus, reprehenderit pariatur placeat, ipsa culpa nesciunt eaque. Necessitatibus aliquam sit aspernatur assumenda dignissimos deserunt laudantium quibusdam. Illo, fugit quam.</p>
+        </section>
+        <section>
+            <h3>Uso de Tabelas</h3>
+            <table border="1" cellpadding="3" style="border-collapse: collapse;">
+                <thead> <!-- Cabeçalho da tabela -->
+                    <tr>
+                        <th colspan="4">Usuários</th>
+                    </tr>
+                    <tr> <!-- Table Row -->
+                        <th>Tipo</th>
+                        <th>Nome</th> <!-- Table Header -->
+                        <th>CPF</th>
+                        <th>Nasc</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Funcionário</td> <!-- Rowspan = duração de linha-->
+                        <td>Maria José</td> <!-- Table Data -->
+                        <td>999.999.999-99</td>
+                        <td>01/01/2001</td>
+                    </tr>
+                    <tr>
+                        <td>José Maria</td>
+                        <td>999.999.999-99</td>
+                        <td>02/02/2002</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Cliente</td>
+                        <td>João Silva</td>
+                        <td>999.999.999-99</td>
+                        <td>09/09/1999</td>
+                    </tr>
+                    <tr>
+                        <td>Ana Silva</td>
+                        <td>999.999.999-99</td>
+                        <td>07/07/1997</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            <table border="1" cellpadding="4" style="border-collapse: collapse;">
+                <tr>
+                    <td colspan="2">Celula 1-1</td>
+                    <td>Celula 1-3</td>
+                </tr>
+                <tr>
+                    <td>Celula 2-1</td>
+                    <td>Celula 2-2</td>
+                    <td>Celula 2-3</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <hr> <!-- Horizontal Rule-->
+    <footer> <!-- Informações sobre autoria/encerra o conteúdo -->
+        ©
+        <script>
+            document.write(new Date().getFullYear())
+        </script>
+        Soulcode Academy
+    </footer>
+</body>
+</html>
