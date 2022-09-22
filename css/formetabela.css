@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(28, 82, 122);
+    font-family: poppins, sans-serif;
+}
+
+table {
+    background-color: white;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.thcolor {
+    color: rgb(11, 11, 56);
+}
+
+.inc {
+    color: red;
+}

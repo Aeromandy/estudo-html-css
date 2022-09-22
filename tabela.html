@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styletabela.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;200;300;400&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -12,7 +16,7 @@
             <table border="10" cellpadding="3" style="border-collapse: collapse;">
                 <thead>
                     <tr>
-                        <th colspan="11">BRASILEIRO SÉRIE A</th>
+                        <th id="br" colspan="11">BRASILEIRO SÉRIE A</th>
                     </tr>
                     <tr>
                         <th>Categoria</th>
@@ -29,8 +33,8 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td rowspan="6">Libertadores</td>
+                    <tr class="liber">
+                        <th rowspan="6">Libertadores</th>
                         <td>
                             <img src="./imgs-brasileirao/palmeiras.webp" width="20">
                             Palmeiras
@@ -45,7 +49,7 @@
                         <td>25</td>
                         <td>70</td>
                     </tr>
-                    <tr>
+                    <tr class="liber">
                         <td>
                             <img src="./imgs-brasileirao/fluminense.webp" width="20">
                             Fluminense
@@ -60,7 +64,7 @@
                         <td>11</td>
                         <td>59</td>
                     </tr>
-                    <tr>
+                    <tr class="liber">
                         <td>
                            <img src="./imgs-brasileirao/internacional.webp" width="20">
                             Internacional
@@ -75,7 +79,7 @@
                         <td>16</td>
                         <td>59</td>
                     </tr>
-                    <tr>
+                    <tr class="liber">
                         <td>
                             <img src="./imgs-brasileirao/flamengo.webp" width="20">
                             Flamengo
@@ -90,7 +94,7 @@
                         <td>18</td>
                         <td>56</td>
                     </tr>
-                    <tr>
+                    <tr class="liber">
                         <td>
                             <img src="./imgs-brasileirao/corinthians.webp" width="20">
                             Corinthians
@@ -105,7 +109,7 @@
                         <td>4</td>
                         <td>54</td>
                     </tr>
-                    <tr>
+                    <tr class="liber">
                         <td>
                             <img src="./imgs-brasileirao/athletico-pr.webp" width="20">
                             Athetico-PR
@@ -120,8 +124,8 @@
                         <td>2</td>
                         <td>54</td>
                     </tr>
-                    <tr>
-                        <td rowspan="6">Copa Sul-Americana</td>
+                    <tr class="sula">
+                        <th rowspan="6">Copa Sul-Americana</th>
                         <td>
                             <img src="./imgs-brasileirao/atletico-mg.webp" width="20">
                             Athetico-MG
@@ -136,7 +140,7 @@
                         <td>4</td>
                         <td>49</td>
                     </tr>
-                    <tr>
+                    <tr class="sula">
                         <td>
                             <img src="./imgs-brasileirao/america-mg.webp" width="20">
                             América-MG
@@ -151,7 +155,7 @@
                         <td>-2</td>
                         <td>48</td>
                     </tr>
-                    <tr>
+                    <tr class="sula">
                         <td>
                             <img src="./imgs-brasileirao/goias.webp" width="20">
                             Goiás
@@ -166,7 +170,7 @@
                         <td>-3</td>
                         <td>46</td>
                     </tr>
-                    <tr>
+                    <tr class="sula">
                         <td>
                             <img src="./imgs-brasileirao/botafogo.webp" width="20">
                             Botafogo
@@ -181,7 +185,7 @@
                         <td>-3</td>
                         <td>42</td>
                     </tr>
-                    <tr>
+                    <tr class="sula">
                         <td>
                             <img src="./imgs-brasileirao/santos.webp" width="20">
                             Santos
@@ -196,7 +200,7 @@
                         <td>4</td>
                         <td>42</td>
                     </tr>
-                    <tr>
+                    <tr class="sula">
                         <td>
                             <img src="./imgs-brasileirao/bragantino.webp" width="20">
                             Red Bull Bragantino
@@ -211,8 +215,8 @@
                         <td>3</td>
                         <td>42</td>
                     </tr>
-                    <tr>
-                        <td rowspan="4">Sem Classificação</td>
+                    <tr class="sn">
+                        <th rowspan="4">Sem Classificação</th>
                         <td>
                             <img src="./imgs-brasileirao/sao-paulo.webp" width="20">
                             São Paulo
@@ -227,7 +231,7 @@
                         <td>4</td>
                         <td>42</td>
                     </tr>
-                    <tr>
+                    <tr class="sn">
                         <td>
                             <img src="./imgs-brasileirao/fortaleza.webp" width="20">
                             Fortaleza
@@ -242,7 +246,7 @@
                         <td>-4</td>
                         <td>38</td>
                     </tr>
-                    <tr>
+                    <tr class="sn">
                         <td>
                             <img src="./imgs-brasileirao/ceara.webp" width="20">
                             Ceará
@@ -257,7 +261,7 @@
                         <td>-2</td>
                         <td>38</td>
                     </tr>
-                    <tr>
+                    <tr class="sn">
                         <td>
                             <img src="./imgs-brasileirao/coritiba.webp" width="20">
                             Coritiba
@@ -272,8 +276,8 @@
                         <td>-15</td>
                         <td>35</td>
                     </tr>
-                    <tr>
-                        <td rowspan="4">Rebaixamento</td>
+                    <tr class="rebaixa">
+                        <th rowspan="4">Rebaixamento</th>
                         <td>
                             <img src="./imgs-brasileirao/avai.webp" width="20">
                             Avaí
@@ -288,7 +292,7 @@
                         <td>-13</td>
                         <td>35</td>
                     </tr>
-                    <tr>
+                    <tr class="rebaixa">
                         <td>
                             <img src="./imgs-brasileirao/cuiaba.webp" width="20">
                             Cuiabá
@@ -303,7 +307,7 @@
                         <td>-8</td>
                         <td>33</td>
                     </tr>
-                    <tr>
+                    <tr class="rebaixa">
                         <td>
                             <img src="./imgs-brasileirao/atletico-go.webp" width="20">
                             Atlético-Go
@@ -318,7 +322,7 @@
                         <td>-17</td>
                         <td>28</td>
                     </tr>
-                    <tr>
+                    <tr class="rebaixa">
                         <td>
                             <img src="./imgs-brasileirao/juventude.webp" width="20">
                             Juventude
