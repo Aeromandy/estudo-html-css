@@ -1,0 +1,59 @@
+body {
+    background-image: url('../img/navagio.jpg');
+    background-size: cover;
+    font-family: 'Berkshire Swash';
+}
+
+h1 {
+    -webkit-text-stroke: 1px rgb(101, 218, 226);
+    color: aliceblue;
+    font-size: 70px;
+    text-align: center;
+    padding: auto;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    padding: auto;
+}
+
+h3 {
+    color:aliceblue;
+    font-size: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.411);
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 300px;
+    height: 600px;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+   
+.card p {
+    color: #ccd2ec;
+    font-size: 26px;
+}
+   
+.image {
+    float: center;
+    max-width: 300px;
+    max-height: 500px;
+}
+
